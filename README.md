@@ -69,4 +69,8 @@ The first command runs JUnit and measures every production Java class with JaCoC
 
 `openbench calibrate trials.json` groups measured authoring outcomes by model and level and reports acceptance rates, costs and 95% Wilson intervals. Each input record has `model`, `level`, boolean `accepted` and integer `cost_microunits`. It summarizes supplied evidence; it cannot authenticate externally supplied trials or prove monotonic difficulty. See [validation](docs/validation.md) for this iteration's actual measurements.
 
-No product license has been selected. Cloud scheduling, native provider adapters, semantic critics, novelty detection, solver trial orchestration, resume, portable format adapters and calibrated frontier difficulty remain explicit ledger gaps.
+Licensed under the [Apache License 2.0](LICENSE); see [notices](THIRD_PARTY_NOTICES.md). Cloud scheduling, native provider adapters, semantic critics, novelty detection, solver trial orchestration, resume, portable format adapters and calibrated frontier difficulty remain explicit ledger gaps.
+
+## Contributing
+
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, validation and contribution terms.
