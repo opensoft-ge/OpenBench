@@ -28,3 +28,7 @@ Reproducible packaging provides stable artifacts before broader orchestration. D
 Package acceptance checks byte equality across destination names and changed source timestamps, independently hashes the archive, reads every member without extraction, verifies normalized metadata, and proves overwrite refusal leaves bytes unchanged. Tamper/rejection checks remain. Callback mutation cannot corrupt attempt records or retry inputs. 46 tests pass: 432/432 lines and 132/132 branches; all named functions are covered.
 
 Current Java tests, exact counters and container acceptance evidence are in [validation](validation.md).
+
+## Required product experience — UX-001
+
+**Planned, before the first browser release.** Implement a professional, responsive interface with complete light/dark themes and a visible, keyboard-accessible persistent toggle. Follow the [product experience acceptance contract](product-experience.md). Dependencies: real product UI and the applicable identity/access foundations; validate both themes through actual workflows, including narrow screens, preference persistence, storage failure and accessible contrast/focus. The current CLI foundation does not provide this browser capability.

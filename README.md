@@ -74,3 +74,7 @@ Licensed under the [Apache License 2.0](LICENSE); see [notices](THIRD_PARTY_NOTI
 ## Contributing
 
 Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, validation and contribution terms.
+
+## Product experience
+
+See the [professional appearance and dark-mode requirements](docs/product-experience.md), including current implementation status and browser-release acceptance criteria.
