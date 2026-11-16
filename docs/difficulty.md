@@ -19,3 +19,7 @@ Every level requires ordered acyclic dependencies, unique identifiers, bounded i
 The format is `openbench-2`. It versions the new rank mapping and Java deterministic seed sequence. Old artifacts must not be silently relabeled: retain them as archives and generate new designs under the new contract. Identical specs produce identical designs within this format.
 
 All domains are original scenarios, but the current renderer still uses one synthetic graph task family. Construction depth and size alone do not establish a hundred empirically distinct difficulty bands. Controlled solver trials, domain reasoning, semantic quality review and uncertainty estimates remain required before claiming measured nightmare difficulty or frontier-model failure rates. Author acceptance and solver success are different experiments.
+
+## AI product direction
+
+Requirement added 2026-11-16: OpenBench must become fully AI enabled, agentic and conversational across its core journeys. The [AI capability and acceptance guide](ai-capabilities.md) defines the required work and evidence. This direction does not change the implementation scope or historical validation results recorded above.

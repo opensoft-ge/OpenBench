@@ -14,3 +14,7 @@ Author and grader callbacks receive JSON snapshots. Callback mutation cannot alt
 The participant context contains only public graph/case inputs, a Java 25 JDK and the SQLite JDBC dependency. The factory/reference JAR and expected answers are in the private verifier context. The trusted reference control temporarily mounts that JAR read-only, writes `/artifacts/answer.json`, rereads it and passes its values to separate verifier trials. Participant runs must not receive that private mount. SQLite extracts its native library to a bounded executable `/tmp`; the root filesystem remains read-only and containers have no network or capabilities.
 
 The task format is `openbench-2`; levels are 1–100. Maven/JUnit tests cover the Java CLI, persistence, budgets, tampering, real subprocess deadlines and test doubles for Docker error/cleanup paths. `scripts/smoke-docker.sh` separately proves all three real container grading journeys and archive creation. No paid model services are called.
+
+## AI product direction
+
+Requirement added 2026-11-16: OpenBench must become fully AI enabled, agentic and conversational across its core journeys. The [AI capability and acceptance guide](ai-capabilities.md) defines the required work and evidence. This direction does not change the implementation scope or historical validation results recorded above.

@@ -27,3 +27,7 @@ Acceptance covers all 100 level contracts, deterministic designs, hand-computed 
 `sh scripts/smoke-docker.sh` separately passes all three real Docker profiles at level-16, including independent reference acceptance, empty/mutated answer rejection and checksum-verified archive packaging. The participant image contains no factory/reference JAR or expected answers; the trusted reference control uses a temporary read-only private mount. The Java CLI image builds and its catalog runs successfully as UID 10001. No model provider was contacted and empirical difficulty remains uncalibrated.
 
 Reports: `target/site/jacoco/index.html`, `target/site/jacoco/jacoco.xml`, and `target/surefire-reports/`. `clean` removes stale reports before instrumentation. Passing tests and execution coverage establish the documented implemented subset; they do not prove complete vendor parity, missing inventory coverage, production load capacity or enterprise readiness.
+
+## AI product direction
+
+Requirement added 2026-11-16: OpenBench must become fully AI enabled, agentic and conversational across its core journeys. The [AI capability and acceptance guide](ai-capabilities.md) defines the required work and evidence. This direction does not change the implementation scope or historical validation results recorded above.
